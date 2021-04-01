@@ -1,0 +1,19 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testcafe": "testcafe chrome testCafe/ventas.js --skip-js-errors",
+    "cypress": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.13.0"
+  },
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
+}
